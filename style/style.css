@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-dark: #0e66c4;
+  --clr-white: #ffffff;
+  --clr-green: #34eb98;
+  --clr-purple: #5c237a;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: var(--clr-dark);
+}
+.fluid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-white);
+  height: 100vh;
+}
+h1{
+  font-size: 3rem;
+}
+.textBox p {
+  margin: 2rem;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-weight: 600;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  margin: 0 -1rem;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#submit {
+  background-color: orchid;
+  padding: 0.2rem 3rem;
+  font-size: 1.7rem;
+  border: 2px solid var(--clr-green);
+  border-radius: 1rem;
+  transform: scale(1.2);
+}
+
+.containt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.containt p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 4px solid;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+.containt span {
+  border-top: 4px solid;
+  padding: 0 3.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color:navy;
+}
+.hightlight {
+  color: lightgreen;
+  background-color: #5c237a;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.hightlight1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: darkgoldenrod;
+}
