@@ -19,7 +19,7 @@ const calculate = () => {
   } else {
     change = bill_Amt.value - cash.value;
     if (change >= 0) {
-      balance.innerText = `${change} Cash is less then Bill Amount`;
+      balance.innerText = ` -${change} Cash is less then Bill Amount`;
     } else {
       balance.innerText = `Try Again`;
     }
